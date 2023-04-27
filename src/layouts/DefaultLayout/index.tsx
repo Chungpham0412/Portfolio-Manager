@@ -2,10 +2,10 @@ import Footer from '@/components/common/Footer';
 import Header from '@/components/common/Header';
 
 interface DefaultLayoutProps {
-    children: React.ReactNode;
+    children: any;
 }
-
-function DefaultLayout({ children }) {
+ 
+function DefaultLayout({ children }: DefaultLayoutProps) {
     return (
         <>
             <Header />
