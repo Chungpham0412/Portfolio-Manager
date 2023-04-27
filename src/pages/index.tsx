@@ -72,6 +72,7 @@ export default function Home() {
             description:
                 'Dự án cá nhân mình phát triển với mục đích chia sẻ các giao diện đơn giản hay gặp, các bạn có thể lấy giao diện chỉ với 1 vài cú nhấp chuột.',
             image: 'https://cdn.svgporn.com/logos/html-5.svg',
+            href: 'https://codingui.dev',
         },
     ];
 

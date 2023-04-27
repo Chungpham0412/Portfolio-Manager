@@ -7,18 +7,10 @@ interface ProjectsProps {
         title: string;
         description: string;
         image: string;
+        href: string;
     }>;
 }
-function Projects({
-    heading_title = 'Projects nè',
-    datas = [
-        {
-            title: 'HTML',
-            description: '',
-            image: 'https://cdn.svgporn.com/logos/html-5.svg',
-        },
-    ],
-}: ProjectsProps) {
+function Projects({ heading_title = 'Projects nè', datas }: ProjectsProps) {
     return (
         <section className="projects" id="projects">
             <div className="container">
@@ -30,7 +22,7 @@ function Projects({
                         datas.map((project, index) => (
                             <div className="snap-start" key={index}>
                                 <Link
-                                    href="/"
+                                    href={project.href}
                                     className="h-[133px] lg:h-[200px] border border-dark3 rounded-2xl block overflow-hidden group relative"
                                 >
                                     <Image
