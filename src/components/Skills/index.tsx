@@ -24,7 +24,7 @@ function Skills({
                 <h2 className="heading mb-9 md:mb-14 relative pb-4 font-bold text-xl md:text-[32px] text-white leading-normal text-left left">
                     {heading_title}
                 </h2>
-                <div className="list-skill grid grid-cols-6 max-lg:gap-10 lg:gap-20 lg:px-20">
+                <div className="list-skill grid justify-items-center grid-cols-6 max-lg:gap-10 lg:gap-20 lg:px-20">
                     {datas &&
                         datas.map((skill, index) => (
                             <div
