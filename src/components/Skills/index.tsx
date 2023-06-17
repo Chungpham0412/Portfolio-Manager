@@ -16,6 +16,16 @@ function Skills({
             description: '',
             image: 'https://cdn.svgporn.com/logos/html-5.svg',
         },
+        {
+            title: 'PHP',
+            description: '',
+            image: 'https://cdn.svgporn.com/logos/html-5.svg',
+        },
+        {
+            title: 'Reactjs',
+            description: '',
+            image: 'https://cdn.svgporn.com/logos/html-5.svg',
+        },
     ],
 }: SkillsProps) {
     return (
